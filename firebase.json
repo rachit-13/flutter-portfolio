@@ -1,0 +1,54 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "rachit-dandriyal",
+          "appId": "1:946596256869:android:1955cc7a87ae0f16ddba8c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "rachit-dandriyal",
+          "appId": "1:946596256869:ios:e91ebdcae1d585a6ddba8c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "rachit-dandriyal",
+          "appId": "1:946596256869:ios:e91ebdcae1d585a6ddba8c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "rachit-dandriyal",
+          "configurations": {
+            "android": "1:946596256869:android:1955cc7a87ae0f16ddba8c",
+            "ios": "1:946596256869:ios:e91ebdcae1d585a6ddba8c",
+            "macos": "1:946596256869:ios:e91ebdcae1d585a6ddba8c",
+            "web": "1:946596256869:web:73040e09c1d0a33eddba8c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

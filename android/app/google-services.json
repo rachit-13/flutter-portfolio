@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946596256869",
+    "project_id": "rachit-dandriyal",
+    "storage_bucket": "rachit-dandriyal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946596256869:android:1955cc7a87ae0f16ddba8c",
+        "android_client_info": {
+          "package_name": "com.example.rachit_dandriyal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlV9U7YV2UqNvXSXQRHQJxW2lky4o6mMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

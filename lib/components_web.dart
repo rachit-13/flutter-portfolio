@@ -719,7 +719,7 @@ class _DownloadResumeState extends State<DownloadResume> {
 
 void _downloadResume() async {
   const String resumeUrl =
-      'https://firebasestorage.googleapis.com/v0/b/rachit-dandriyal.appspot.com/o/Rachit%20CV.pdf?alt=media&token=7e31395c-ced9-432f-a7d9-79a20e26c76a';
+      'https://firebasestorage.googleapis.com/v0/b/rachit-dandriyal.appspot.com/o/Rachit%20CV.pdf?alt=media&token=8cd92335-606a-43e9-b832-a2c1f2f307c9';
 
   if (await canLaunch(resumeUrl)) {
     await launch(resumeUrl);
